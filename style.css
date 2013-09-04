@@ -1,0 +1,55 @@
+* {
+	/*border: 1px solid black;*/
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: black;
+	text-align: center;
+	font-family: 'Ubuntu'
+}
+
+/*General Divs*/
+.gdivs {
+	width: 100%;
+}
+
+/*Name*/
+#name {
+	color: #F7F7F7;
+	background-color: #453FFF;
+	font-size: 100px;
+	height: 200px;
+	padding-top: 300px;
+	background-image: url(imgs/namebackground.jpg);
+}
+
+/*Menu*/
+#menu {
+	background-color: #FF793F;
+}
+
+.nav {
+	
+}
+
+.sticky {  
+    position: fixed;  
+    width: 100%;  
+    left: 0;  
+    top: 0;  
+    z-index: 100;  
+    border-top: 0;  
+}
+
+/*Skills*/
+#skills {
+	background-color: #FFBD3F;
+}
+
+/*Info*/
+#info {
+	background-color: #F7FF3F;
+	height: 1000px;
+}
